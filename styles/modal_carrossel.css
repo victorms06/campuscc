@@ -1,0 +1,51 @@
+#overlay, #second-overlay {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 101vh;
+  background-color: rgba(0, 0, 0, 0.751);
+  background-image: none;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50% !important;
+  background-color: white;
+  padding: 10px;
+}
+
+.modal-content img {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.box-content {
+  width: 50%;
+  background-color:white;
+  padding: 10px; 
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  
+  .modal-content  {
+    width: 100% !important;
+  }
+
+  .carousel-inner  {
+    border: 2px solid white !important;
+    padding: 5px;
+    background-color: white;
+  }
+
+  .box-content {
+    width: 90%;
+  }
+}

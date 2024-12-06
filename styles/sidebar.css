@@ -1,0 +1,95 @@
+#sidebar {
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -400px; /* Escondido inicialmente */
+    background: #f8f9fa;
+    transition: left 0.3s;
+    border-right: 1px solid #ddd;
+  }
+  #sidebar.active {
+    left: 0; /* Mostra o sidebar */
+  }
+  #main-content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+  }
+  #main-content.with-sidebar {
+    margin-left: 400px;
+  }
+
+  #closeSidebar {
+    display: none;
+  }
+
+  .imagem-logo {
+    width: 400px;
+    height: 200px;
+    background-image: url('/images/soltas/logo.png');
+    background-size: 200px 200px; /* Ajusta o tamanho da imagem */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+  }
+
+  .nav-link {
+    margin-left: -10px;
+    margin-bottom: 5px;
+  }
+
+  .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .box a {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .box-form {
+    margin-bottom: -20px !important;
+  }
+ 
+
+  @media (max-width: 768px) {
+    #sidebar {
+      width: 80%; /* Sidebar ocupa a largura inteira */
+      left: -100%; /* Escondido inicialmente */
+      z-index: 999;
+    }
+
+    #sidebar.active {
+      left: 0; /* Sidebar visível */
+    }
+
+    .imagem-logo {
+      background-size: 150px 150px;
+      width: 100%;
+    }
+
+    #main-content.with-sidebar {
+      margin-left: 0; /* Conteúdo principal não desloca em telas pequenas */
+    }
+
+    #closeSidebar {
+    position: absolute;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: block;
+  }
+
+  .suggestion-item {
+    cursor: pointer !important;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+}

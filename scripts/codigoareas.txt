@@ -1,0 +1,28 @@
+document.querySelectorAll('.blocos').forEach(bloco => {
+    bloco.addEventListener('click', e => {
+        e.preventDefault()
+
+        const blocoEscolhido = e.target.getAttribute('data-bloco');
+
+        if(blocoEscolhido === 'e') {
+            // Coordenadas do polígono (latitude, longitude)
+            const areaCoords = [
+                [-24.98833647382257, -53.44939972609104], 
+                [-24.988048528607273, -53.448852554629774],
+                [-24.988170583079388, -53.448772897086016],
+                [-24.988458528008813, -53.44932291345956]
+            ];
+
+            // Adiciona o polígono ao mapa
+            const polygon = L.polygon(areaCoords, {
+                color: 'blue',           // Cor da borda
+                fillColor: 'rgba(0, 0, 255, 0.5)', // Cor de preenchimento (azul com opacidade)
+                fillOpacity: 0.5,        // Opacidade do preenchimento
+                weight: 2                // Espessura da borda
+            }).addTo(map);
+
+            // Adiciona um popup ao clicar no polígono
+            polygon.bindPopup("BLOCO E");
+        }
+    })
+})

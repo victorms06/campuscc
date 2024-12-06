@@ -1,0 +1,380 @@
+[
+    { 
+        "coordinates": [-24.988287624370766, -53.44813237635116],
+        "local": "A115",
+        "categoria": "Salas de Aula",
+        "bloco": "A",
+        "andar": "1",
+        "descricao": "A sala A115 é uma das salas do curso de Ciência da Computação, as aulas teóricas do 1° ano do curso ocorrem aqui, pelas disciplinas de Algoritmos, Cálculo Diferencial e Integral, Estatística Básica entre outras matérias. A sala fica localizada no primeiro piso do bloco A, em frente a sala A114.",
+        "icon" : "aula",
+        "imagens": [
+            "a115/a115_1.jpg",
+            "a115/a115_2.jpg",
+            "a115/a115_3.jpg", 
+            "a115/a115_4.jpg", 
+            "a115/a115_5.jpg"
+        ]
+    },
+    { 
+        "coordinates": [-24.988331971772265, -53.44824820546175],
+        "local": "A114",
+        "categoria": "Salas de Aula",
+        "bloco": "A",
+        "andar": "1",
+        "descricao": "A sala A114 é uma das que o curso de Ciência da Computação usa. Atualmente, ela é ocupada pela turma do 3º ano e também pode ser usada para desdobramentos. A sala fica localizada no primeiro piso do bloco A, perto dos banheiros e da escada que leva ao Restaurante Universitário. Também está próxima da porta que dá acesso ao Jardim Sensorial - Caracol.",
+        "icon" : "aula",
+        "imagens": [
+            "a115/a115_1.jpg",
+            "a115/a115_2.jpg",
+            "a115/a115_3.jpg", 
+            "a115/a115_4.jpg", 
+            "a115/a115_5.jpg"
+        ]
+    },
+    { 
+        "coordinates": [-24.987533340441143, -53.44873502639644],
+        "local": "A205",
+        "categoria": "Salas de Aula",
+        "bloco": "A",
+        "andar": "2",
+        "descricao": "A Sala A205 é usada para aulas teóricas do 2º ano do curso de Ciência da Computação. Mudanças podem ocorrer conforme necessário. A sala fica localizada também no bloco A, ao final do corredor, contrário ao lado que dá acesso ao caracol pelo 2° piso. Se tiver dúvidas, procure ajuda dos veteranos, que podem orientá-lo.",
+        "icon" : "aula",
+        "imagens": [
+            
+        ]
+    },
+    { 
+        "coordinates": [-24.988173359803852, -53.448784779510994],
+        "local": "Laboratório 1",
+        "categoria": "Laboratórios",
+        "bloco": "F",
+        "andar": "T",
+        "descricao": "Localizado no Bloco F, exclusivo para o curso de Ciência da Computação, o Laboratório 1 é o espaço destinado às aulas práticas de diversas disciplinas. No primeiro ano, ele é amplamente utilizado em matérias como Algoritmos e Sistemas Digitais, além de ser usado em práticas de disciplinas de outros períodos do curso.",
+        "icon" : "lab",
+        "imagens": [
+            "lab1/lab1_1.jpg",
+            "lab1/lab1_2.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.98809677884203, -53.44903489549838],
+        "local": "Laboratório 4",
+        "categoria": "Laboratórios",
+        "bloco": "E",
+        "andar": "T",
+        "descricao": "Encontrado no bloco E, é um dos  locais onde ocorrem as aulas práticas do curso de Ciência da Computação, dispõe de uma grande quantidade de computadores prontos para serem utilizados.",
+        "icon" : "lab",
+        "imagens": [
+            "lab4/lab4_1.jpeg",
+            "lab4/lab4_2.jpg",
+            "lab4/lab4_3.jpg",
+            "lab4/lab4_4.jpg",
+            "lab4/lab4_5.jpg",
+            "lab4/lab4_6.jpeg",
+            "lab4/lab4_7.jpeg"
+        ]
+    },
+    { 
+        "coordinates": [-24.98821772811257, -53.449262883260126],
+        "local": "Laboratório 7",
+        "categoria": "Laboratórios",
+        "bloco": "E",
+        "andar": "T",
+        "descricao": "Localizado no Bloco E, o Laboratório 7 é usado temporariamente para aulas práticas de Ciência da Computação, como Algoritmos, a exemplo do 1° ano. Apesar disso, ele não é originalmente exclusivo para os estudantes do curso, por isso está sujeito a mudanças. O laboratório conta com diversos computadores disponíveis para estudos.",
+        "icon" : "lab",
+        "imagens": [
+            "lab7/lab7_1.jpg",
+            "lab7/lab7_2.jpg",
+            "lab7/lab7_3.jpg",
+            "lab7/lab7_4.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.988119267907116, -53.44821485427878],
+        "local": "RU - Restaurante Universitário",
+        "categoria": "Áreas de Alimentação e Serviços",
+        "bloco": "A",
+        "andar": "T",
+        "descricao": "O Restaurante Universitário (RU), fica localizado no térreo proximo a Cantina e ao Relogio de Sol, o RU oferece alimentação subdiada aos estudantes, proporcionando refeições de qualidade a preços acessíveis. Fica disponível em 2 horários, o primeiro sendo do almoço, das 11:00 até 13:30, e a do jantar, das 18:00 até 20:30. Os preços variam pela situação: Se não é aluno, o valor é de R$9,20, se é aluno o valor é de R$4,00 e se possui CadÚnico (mediante a pedido de comprovante), o valor é de R$2,50.",
+        "icon" : "alimentacao",
+        "imagens": [
+            "ru/ru1.jpg",
+            "ru/ru2.jpg",
+            "ru/ru3.jpg",
+            "ru/ru4.jpg",
+            "ru/ru5.jpg",
+            "ru/ru6.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.98862608568256, -53.44789600027454],
+        "local": "Copiadora Universitária",
+        "categoria": "Xerox e Encadernação",
+        "bloco": "A",
+        "andar": "T",
+        "descricao": "Descricao copiadora",
+        "icon" : "copiadora",
+        "imagens": [
+            "copiadora/copiadora_1.jpg",
+            "copiadora/copiadora_2.jpg",
+            "copiadora/copiadora_3.jpg",
+            "copiadora/copiadora_4.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.988400799448634, -53.44821247223312],
+        "local": "Cantina",
+        "categoria": "Áreas de Alimentação e Serviços",
+        "bloco": "A",
+        "andar": "T",
+        "descricao": "Localizada no Bloco A, abaixo das salas e em frente ao Restaurante Universitário (RU), a Cantina serve como um espaço destinado à alimentação e ao convívio social da comunidade acadêmica, incluindo estudantes, professores e funcionários. ",
+        "icon" : "alimentacao",
+        "imagens": [
+            "cantina/cantina1.jpg",
+            "cantina/cantina2.jpg",
+            "cantina/cantina3.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.988419512566974, -53.449314515785424],
+        "local": "Grupo PETComp",
+        "categoria": "Grupos e Projetos",
+        "bloco": "F",
+        "andar": "T",
+        "descricao": "Localizado no bloco F, ao fim do corredor, o PETComp (Programa de Educação Tutorial - Ciência da Computação) é responsável por inserir estudantes de graduação em projetos de educação tutorial com o objetivo de aplicar seus conhecimentos e ampliar sua formação. O PETComp organiza eventos para compartilhar e adquirir conhecimento, como minicursos e palestras, que são abertos para os acadêmicos do curso de Ciência da Computação. Abre também oportunidades anualmente de fazer parte do grupo, podendo ser bolsista e voluntário.",
+        "icon" : "grupo",
+        "imagens": [
+            "pet/pet_1.jpg",
+            "pet/pet_2.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.988223805965056, -53.44887262185449],
+        "local": "CA - Centro Acadêmico",
+        "categoria": "Áreas Administrativas e Acadêmicas",
+        "bloco": "F",
+        "andar": "T",
+        "descricao": "Localizado no bloco F no corredor dos laboratórios, o Centro Acadêmico de Ciência da Computação (CACCo), é a entidade que representa dos alunos de Ciência da Computação perante a outros órgãos e entidades, como o  colegiado, o CCET, o DCE, entre outros.Também age para resolução de conflitos internos, organiza eventos como a SEMINC e promove a participação dos alunos em congressos como a Latinowere.",
+        "icon" : "admin",
+        "imagens": [
+            "ca/ca_4.jpg",
+            "ca/ca_2.jpg",
+            "ca/ca_3.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.98827182096675, -53.44897856910849],
+        "local": "Grupo BIT - Empresa Júnior",
+        "categoria": "Grupos e Projetos",
+        "bloco": "F",
+        "andar": "T",
+        "descricao": "Localizado no Bloco F no mesmo corredor do Centro Acadêmico e dos Laborátorio 1 e 2, o BIT é uma empresa que não está vinculada a fins lucrativos, oferece serviços de consultoria em TI, desenvolvimento de softwares, análise de sistemas e soluções tecnológicas para otimizar processos organizacionais, e promove a formação prática dos estudantes do curso, possibilitando a aplicação dos conhecimentos acadêmicos em projetos reais e contribuindo para o crescimento e aprimoramento das empresas atendidas",
+        "icon" : "grupo",
+        "imagens": [
+            "bit/bit_1.jpg",
+            "bit/bit_2.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.988722723135425, -53.44789600027454],
+        "local": "Ambulatório",
+        "categoria": "Serviços de Saúde",
+        "bloco": "A",
+        "andar": "T",
+        "descricao": "Localizado ao lado da Copiadora Universitária no térreo, o Ambulatório é um ambiente similar a um pronto socorro mas sem a característica de urgência, tem como função oferecer atendimento médico especializado aos acadêmicos e a comunidade externa que necessitam de atendimentos.",
+        "icon" : "saude",
+        "imagens": [
+            "ambulatorio/ambulatorio_1.jpg",
+            "ambulatorio/ambulatorio_2.jpg",
+            "ambulatorio/ambulatorio_3.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.987298045223238, -53.44735764785217],
+        "local": "Biblioteca Universitária",
+        "categoria": "Recursos de Estudo",
+        "bloco": "--",
+        "andar": "--",
+        "descricao": "Localizada ao lado do prédio de laboratórios (biologia, ciência, etc…), a Biblioteca da Unioeste está aberta de segunda a sexta das 7h45 as 21h30 ao acesso de todos os alunos, sendo um lugar extenso, com dois andares, possuindo várias mesas para quem busca conforto, estudar ou ler um dos vários livros disponíveis no local.",
+        "icon" : "estudo",
+        "imagens": [
+            "biblioteca/bib_0.1.jpg",
+            "biblioteca/bib_0.jpg",
+            "biblioteca/bib1.jpg",
+            "biblioteca/bib2.jpg",
+            "biblioteca/bib3.jpg",
+            "biblioteca/bib4.jpg",
+            "biblioteca/bib5.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.987598469639693, -53.45075524180598],
+        "local": "Reitoria da Unioeste",
+        "categoria": "Áreas Administrativas e Acadêmicas",
+        "bloco": "--",
+        "andar": "--",
+        "descricao": "Localizada ao lado da entrada principal do redondo, e próximo aos auditórios, a Reitoria é o espaço físico onde estão localizados os principais gabinetes e departamentos administrativos da faculdade. Além de abrigar reuniões e eventos institucionais, a reitoria também funciona como um ponto de atendimento para assuntos acadêmicos e administrativos, servindo como referência para a comunidade acadêmica.",
+        "icon" : "admin",
+        "imagens": [
+            "reitoria/reitoria_1.jpg",
+            "reitoria/reitoria_2.jpg",
+            "reitoria/reitoria_3.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.987891954928013, -53.449133466679],
+        "local": "PEE - Programa de Atendimento Educacional Especializado",
+        "categoria": "Grupos e Projetos",
+        "bloco": "C",
+        "andar": "T",
+        "descricao": "Este espaço é dedicado a pessoas com deficiência, oferecendo suporte especializado com professores preparados para auxiliar em diversas necessidades. É importante que você visite o local para conhecer seus direitos e aproveitar os recursos disponíveis, como uma sala exclusiva para estudos particulares.",
+        "icon" : "grupo",
+        "imagens": [
+            "pee/pee_2.jpg",
+            "pee/pee_1.jpg"
+        ] 
+    },
+    { 
+        "coordinates": [-24.98815330388855, -53.448391209518014],
+        "local": "Secretaria Acadêmica",
+        "categoria": "Áreas Administrativas e Acadêmicas",
+        "bloco": "A",
+        "andar": "1",
+        "descricao": "descricao secretaria academica",
+        "icon" : "admin",
+        "imagens": [
+            "sac/sac1.jpg",
+            "sac/sac2.jpg",
+            "sac/sac3.jpg"
+        ]
+    },
+    { 
+        "coordinates": [-24.988595688467996, -53.4480575557847],
+        "local": "Jardim Sensorial - Caracol",
+        "categoria": "",
+        "bloco": "A",
+        "andar": "--",
+        "descricao": "O 'Caracol' está localizado entre os Blocos A e B, entre a cantina e a copiadora. Serve como um meio de se locomover entre os andares dos Blocos A e B. Nele também é possível encontrar o Jardim Sensorial, o qual serve como um espaço de descanso para a mente e corpo.",
+        "icon" : "lazer",
+        "imagens": [
+            "caracol/caracol1.jpg",
+            "caracol/caracol2.jpg",
+            "caracol/caracol3.jpg",
+            "caracol/caracol4.jpg"
+        ] 
+    },
+    {
+        "coordinates": [-24.988361773075066, -53.44896515806814],
+        "local": "Ciência da Computação - Colegiado",
+        "categoria": "Áreas Administrativas e Acadêmicas",
+        "bloco": "F",
+        "andar": "T",
+        "descricao": "descricao colegiado",
+        "icon" : "admin",
+        "imagens": [
+            "colegiado/colegiado_1.jpg",
+            "colegiado/colegiado_2.jpg",
+            "colegiado/colegiado_3.jpg"
+        ] 
+    },
+    {
+        "coordinates" : [-24.988380006601755, -53.44919046362094],
+        "local": "Sala dos Professores I e II",
+        "categoria":"Sala dos Professores",
+        "bloco" : "F",
+        "andar" : "T",
+        "descricao": "As salas dos profesores do Bloco F, são exclusivos para os docentes do curso da Computação, serve com um lugar de planejamento de aulas e atividades dos professores, e um possível lugar em que os alunos possam procurar os profesores fora do horário de aula.",
+        "icon" : "salaprofs",
+        "imagens": [
+            "salaprofessores/salaprof_1.jpg",
+            "salaprofessores/salaprof_2.jpg"
+        ] 
+    },
+    {
+        "coordinates" : [-24.98709605914364, -53.44952394148997],
+        "local": "Auditório Arnaldo Busato - Principal",
+        "categoria":"Auditórios",
+        "bloco" : "--",
+        "andar" : "--",
+        "descricao": "Descrição Auditório",
+        "icon" : "auditorio",
+        "imagens": [
+            "audprincipal/audprincipal1.jpeg",
+            "audprincipal/audprincipal2.jpeg",
+            "audprincipal/audprincipal3.jpeg",
+            "audprincipal/audprincipal4.jpeg",
+            "audprincipal/audprincipal5.jpeg",
+            "audprincipal/audprincipal6.jpeg",
+            "audprincipal/audprincipal7.jpeg"
+        ] 
+    },
+    {
+        "coordinates" : [-24.987428352497627, -53.44993096926705],
+        "local": "Mini Auditório 1",
+        "categoria":"Auditórios",
+        "bloco" : "--",
+        "andar" : "--",
+        "descricao": "Descrição mini auditorio1",
+        "icon" : "auditorio",
+        "imagens": [
+            "miniaud1/miniaud1_1.jpeg",
+            "miniaud1/miniaud1_2.jpeg",
+            "miniaud1/miniaud1_3.jpeg",
+            "miniaud1/miniaud1_4.jpeg"
+        ] 
+    },
+    {
+        "coordinates" : [-24.98737884541502, -53.4498196693094],
+        "local": "Mini Auditório 2",
+        "categoria":"Auditórios",
+        "bloco" : "--",
+        "andar" : "--",
+        "descricao": "Descrição mini auditorio2",
+        "icon" : "auditorio",
+        "imagens": [
+            "miniaud2/miniaud2_1.jpeg",
+            "miniaud2/miniaud2_2.jpeg",
+            "miniaud2/miniaud2_3.jpeg",
+            "miniaud2/miniaud2_4.jpeg"
+        ] 
+    },
+    {
+        "coordinates" : [-24.98732279964218, -53.44971867490386],
+        "local": "Mini Auditório 3",
+        "categoria":"Auditórios",
+        "bloco" : "--",
+        "andar" : "--",
+        "descricao": "Descrição mini auditorio3",
+        "icon" : "auditorio",
+        "imagens": [
+            "miniaud3/miniaud3_1.jpeg",
+            "miniaud3/miniaud3_2.jpeg",
+            "miniaud3/miniaud3_3.jpeg",
+            "miniaud3/miniaud3_4.jpeg"
+        ] 
+    },
+    {
+        "coordinates": [-24.986852880703943, -53.448925140628496],
+        "local" : "Entrada Lateral",
+        "categoria": "Entradas",
+        "bloco": "--",
+        "andar": "--",
+        "descricao": "A entrada lateral, fica localizada na Rua Universitária, ela dá acesso ao caminho para o bloco A e a Biblioteca Universitária. A entrada possui uma parada de ônibus logo em frente.",
+        "icon" : "entrada",
+        "imagens": [
+            "entradared/entradared_1.jpg"
+        ]
+    },
+    {
+        "coordinates": [-24.987300585180837, -53.4502138365139],
+        "local" : "Entrada Principal - Redondo",
+        "categoria": "Entradas",
+        "bloco": "--",
+        "andar": "--",
+        "descricao": "A entrada principal fica ao fim da Carlos Gomes e é utilizada para acesso ao estacionamento da Reitoria e do Campus, também servindo como entrada para os auditórios e ao prédio antigo da unioeste (blocos C, D, E e F).",
+        "icon" : "entrada",
+        "imagens": [
+            "entradared/entradared_1.jpg"
+        ]
+    }
+]
