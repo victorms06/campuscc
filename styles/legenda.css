@@ -32,3 +32,11 @@
     line-height: 18px;
     z-index: 990;
 }
+
+
+
+@media (max-width: 768px) { 
+    #legendaBtn {
+        bottom: 80px;
+    }
+}
