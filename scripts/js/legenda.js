@@ -1,4 +1,5 @@
 import { map } from "./mapa.js";
+import { removerSidebar } from "./sidebar.js";
 
 const legenda = document.getElementById('legend');
 const legendaBtn = document.getElementById('legendaBtn');
@@ -8,12 +9,19 @@ map.getContainer().appendChild(legendaBtn);
 document.addEventListener('keydown', (evento) => {
     if(evento.ctrlKey && evento.key === 'l') {
         evento.preventDefault();
+        const sidebar = document.getElementById('sidebar');
+
+        if(sidebar.classList.contains('active')) {
+            removerSidebar();
+        }
+
         abrirEFecharLegenda();
     }
 })
 
 legendaBtn.addEventListener('click', () => {
     abrirEFecharLegenda();
+
 });
 
 document.addEventListener('click', (event) => {

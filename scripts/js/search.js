@@ -15,21 +15,6 @@ export function pesquisarLugares(valorInput, todosLugares) {
 export function pesquisarLugarPelaURL(todosLugares, marcadores, blocoFiltrado, map) {
     const parametrosURL = new URLSearchParams(window.location.search);
     const lugarParametro = parametrosURL.get('search');
-    
-    let algumPopupAberto = false;
-
-    map.eachLayer(layer => {
-        if (layer instanceof L.Popup && map.hasLayer(layer)) {
-            algumPopupAberto = true;
-        }
-    });
-
-    if (algumPopupAberto) {
-        console.log("Existe um popup aberto!");
-    } else {
-        console.log("Nenhum popup aberto.");
-    }
-
 
     if (lugarParametro) {
     
