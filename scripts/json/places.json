@@ -8,11 +8,11 @@
         "descricao": "A sala A115 é uma das salas do curso de Ciência da Computação, as aulas teóricas do 1° ano do curso ocorrem aqui, pelas disciplinas de Algoritmos, Cálculo Diferencial e Integral, Estatística Básica entre outras matérias. A sala fica localizada no primeiro piso do bloco A, em frente a sala A114.",
         "icon" : "aula",
         "imagens": [
-            "a115/a115_1.jpg",
-            "a115/a115_2.jpg",
-            "a115/a115_3.jpg", 
-            "a115/a115_4.jpg", 
-            "a115/a115_5.jpg"
+            {"src" : "a115/a115_1.jpg", "alt" : "Imagem da porta da sala A115 com cadeiras ao lado"},
+            {"src" : "a115/a115_2.jpg", "alt" : "Imagem  capturada a frente da sala de aula, com visão de todas as carteiras da sala e um projetor no teto"},
+            {"src" : "a115/a115_3.jpg", "alt" : "Imagem capturada no fundo da sala de aula, mostrando as carteiras da sala de aula, projetor e ao fundo um quadro negro e a porta "},
+            {"src" : "a115/a115_4.jpg", "alt" : "Imagem capturada de lado mostrando a porta da sala A115, com visão ampla do corredor principal do Bloco A, no piso 1"},
+            {"src" : "a115/a115_5.jpg", "alt" : "Imagem capturada de lado mostrando a porta da sala A115, com visão ampla do corredor principal do Bloco A, no piso 1, tendo ao fundo a porta que dá acesso ao caracol"}
         ]
     },
     { 
@@ -24,15 +24,13 @@
         "descricao": "A sala A114 é uma das que o curso de Ciência da Computação usa. Atualmente, ela é ocupada pela turma do 3º ano e também pode ser usada para desdobramentos. A sala fica localizada no primeiro piso do bloco A, perto dos banheiros e da escada que leva ao Restaurante Universitário. Também está próxima da porta que dá acesso ao Jardim Sensorial - Caracol.",
         "icon" : "aula",
         "imagens": [
-            "a115/a115_1.jpg",
-            "a115/a115_2.jpg",
-            "a115/a115_3.jpg", 
-            "a115/a115_4.jpg", 
-            "a115/a115_5.jpg"
-        ]
+            {"src" : "a114/a114_1.jpg", "alt" : "Imagem capturada no fundo da sala de aula, mostrando as carteiras da sala de aula, projetor e ao fundo um quadro negro e a porta"},
+            {"src" : "a114/a114_2.jpg", "alt" : "Imagem capturada de lado na porta da sala de aula, mostrando de forma ampla as cadeiras e mesas da sala"},
+            {"src" : "a114/a114_3.jpg", "alt" : "Imagem  capturada a frente da sala de aula, com visão de todas as carteiras da sala e um projetor no teto"}
+        ]         
     },
     { 
-        "coordinates": [-24.987533340441143, -53.44873502639644],
+        "coordinates": [-24.98763061915361, -53.44864741298949],
         "local": "A205",
         "categoria": "Salas de Aula",
         "bloco": "A",
@@ -40,7 +38,12 @@
         "descricao": "A Sala A205 é usada para aulas teóricas do 2º ano do curso de Ciência da Computação. Mudanças podem ocorrer conforme necessário. A sala fica localizada também no bloco A, ao final do corredor, contrário ao lado que dá acesso ao caracol pelo 2° piso. Se tiver dúvidas, procure ajuda dos veteranos, que podem orientá-lo.",
         "icon" : "aula",
         "imagens": [
-            
+            {"src" : "a205/a205_1.jpeg", "alt" : "Imagem capturada em frente a porta da sala de aula com uma pequena visão da parte interior"},
+            {"src" : "a205/a205_2.jpeg", "alt" : "Imagem capturada de lado na porta da sala de aula, mostrando de forma ampla as cadeiras e mesas da sala"},
+            {"src" : "a205/a205_3.jpeg", "alt" : "Imagem  capturada a frente da sala de aula, com visão de todas as carteiras da sala e um projetor no teto"},
+            {"src" : "a205/a205_4.jpeg", "alt" : "Imagem capturada no fundo da sala de aula, mostrando as carteiras da sala de aula, projetor e ao fundo um quadro negro"},
+            {"src" : "a205/a205_5.jpeg", "alt" : "Imagem capturada em frente a sala de aula com visão mais ampla do fundo do corredor das salas de aula do segundo andar"},
+            {"src" : "a205/a205_6.jpeg", "alt" : "Imagem capturada em frente a sala de aula com visão mais ampla do corredor das salas de aula do segundo andar"}
         ]
     },
     { 
@@ -52,26 +55,30 @@
         "descricao": "Localizado no Bloco F, exclusivo para o curso de Ciência da Computação, o Laboratório 1 é o espaço destinado às aulas práticas de diversas disciplinas. No primeiro ano, ele é amplamente utilizado em matérias como Algoritmos e Sistemas Digitais, além de ser usado em práticas de disciplinas de outros períodos do curso.",
         "icon" : "lab",
         "imagens": [
-            "lab1/lab1_1.jpg",
-            "lab1/lab1_2.jpg"
-        ] 
+            {"src": "lab1/lab1_1.jpg", "alt": "Imagem capturada da porta do laboratório 1"},
+            {"src": "lab1/lab1_2.jpeg", "alt": "Imagem do laboratório 1 capturada de um ângulo diagonal ao lado direito da sala mostrando as fileiras e mesas com os computadores"},
+            {"src": "lab1/lab1_3.jpeg", "alt": "Imagem do laboratório 1 fotografado de um ângulo frontal ligeiramente elevado, destacando os computadores dispostos em fileiras, ao fundo um quadro branco e uma televisão fixados na parede a frente das mesas"},
+            {"src": "lab1/lab1_4.jpeg", "alt": "Imagem fotografada do fundo do laboratório mostrando a sala inteira com todas as fileiras com computadores"},
+            {"src": "lab1/lab1_5.jpeg", "alt": "Imagem fotografada de frente as fileiras dos computadores mostrando a porta do laboratório ao fundo do laboratório"},
+            {"src": "lab1/lab1_7.jpg", "alt": "Imagem do corredor do bloco F destacando as portas dos laboratórios 1 e 2, com uma placa entre as portas dos dois laboratórios avisando que os laboratórios são de uso exclusivo do curso de Ciência da Computação"}
+        ]
     },
     { 
         "coordinates": [-24.98809677884203, -53.44903489549838],
         "local": "Laboratório 4",
-        "categoria": "Laboratórios",
+        "categoria": "Laboratórios", 
         "bloco": "E",
         "andar": "T",
         "descricao": "Encontrado no bloco E, é um dos  locais onde ocorrem as aulas práticas do curso de Ciência da Computação, dispõe de uma grande quantidade de computadores prontos para serem utilizados.",
         "icon" : "lab",
-        "imagens": [
-            "lab4/lab4_1.jpeg",
-            "lab4/lab4_2.jpg",
-            "lab4/lab4_3.jpg",
-            "lab4/lab4_4.jpg",
-            "lab4/lab4_5.jpg",
-            "lab4/lab4_6.jpeg",
-            "lab4/lab4_7.jpeg"
+       "imagens": [
+            {"src": "lab4/lab4_1.jpeg", "alt": "Imagem capturada em frente ao laborátorio quatro"},
+            {"src": "lab4/lab4_2.jpg", "alt": "Imagem capturada de frente para o fundo do laboratório, com visão das mesas com alguns computadores"},
+            {"src": "lab4/lab4_3.jpg", "alt": "Imagem capturada do fundo para a frente do laboratório, com visão das mesas com alguns computadores, um quadro branco e a porta do laboratório"},
+            {"src": "lab4/lab4_4.jpg", "alt": "Imagem capturada da porta do laboratório com visão mais ampla dos computadores"},
+            {"src": "lab4/lab4_5.jpg", "alt": "Imagem capturada do fundo esquerdo do laboratório, com maior visão dos computadores e do quadro branco"},
+            {"src": "lab4/lab4_6.jpeg", "alt": ""},
+            {"src": "lab4/lab4_7.jpeg", "alt": "Imagem capturada em frente ao laboratório quadro com maior visão do corredor do bloco E, e ao fundo outros laboratórios do bloco E"}
         ]
     },
     { 
@@ -83,11 +90,11 @@
         "descricao": "Localizado no Bloco E, o Laboratório 7 é usado temporariamente para aulas práticas de Ciência da Computação, como Algoritmos, a exemplo do 1° ano. Apesar disso, ele não é originalmente exclusivo para os estudantes do curso, por isso está sujeito a mudanças. O laboratório conta com diversos computadores disponíveis para estudos.",
         "icon" : "lab",
         "imagens": [
-            "lab7/lab7_1.jpg",
-            "lab7/lab7_2.jpg",
-            "lab7/lab7_3.jpg",
-            "lab7/lab7_4.jpg"
-        ] 
+            {"src": "lab7/lab7_1.jpg", "alt": "Imagem capturada em frente a porta do laboratório sete, com leve visão do corredor"},
+            {"src": "lab7/lab7_2.jpg", "alt": "Imagem capturada em frente a porta do laboratório sete, com visão do fundo do corredor do bloco E"},
+            {"src": "lab7/lab7_3.jpg", "alt": "Imagem capturada na porta do laboratório 7 com visão dos computadores e janelas ao fundo"},
+            {"src": "lab7/lab7_4.jpg", "alt": "Imagem capturada no fundo do laboratório 7 com visão dos  computadores, quadro branco e a porta do laboratório"}
+        ]
     },
     { 
         "coordinates": [-24.988119267907116, -53.44821485427878],
@@ -98,12 +105,12 @@
         "descricao": "O Restaurante Universitário (RU), fica localizado no térreo proximo a Cantina e ao Relogio de Sol, o RU oferece alimentação subdiada aos estudantes, proporcionando refeições de qualidade a preços acessíveis. Fica disponível em 2 horários, o primeiro sendo do almoço, das 11:00 até 13:30, e a do jantar, das 18:00 até 20:30. Os preços variam pela situação: Se não é aluno, o valor é de R$9,20, se é aluno o valor é de R$4,00 e se possui CadÚnico (mediante a pedido de comprovante), o valor é de R$2,50.",
         "icon" : "alimentacao",
         "imagens": [
-            "ru/ru1.jpg",
-            "ru/ru2.jpg",
-            "ru/ru3.jpg",
-            "ru/ru4.jpg",
-            "ru/ru5.jpg",
-            "ru/ru6.jpg"
+            {"src": "ru/ru1.jpg", "alt": "Imagem capturada da entrada do restaurante universitário"},
+            {"src": "ru/ru2.jpg", "alt": "Imagem capturada na parte interna do restaurante, com algumas mesas onde os estudantes consomem as suas refeições"},
+            {"src": "ru/ru3.jpg", "alt": "Imagem capturada na parte interna do restaurante, com visão de algumas mesas, e no fundo a janela com leve visão da cobertura do caminho que liga o bloco A ao bloco da biblioteca e das biológicas"},
+            {"src": "ru/ru4.jpg", "alt": "Imagem capturada das mesas do restaurante com visão mais ampla das mesas e do balcão de atendimento do restaurante"},
+            {"src": "ru/ru5.jpg", "alt": "Imagem capturada de algumas mesas do restaurante e ao fundo, uma janela onde é colocado os pratos após as refeições e uma máquina de suco"},
+            {"src": "ru/ru6.jpg", "alt": "Imagem capturada da entrada do restaurante universitário, com leve visão da porta que dá acesso a parte externa do bloco A"}
         ] 
     },
     { 
@@ -112,14 +119,15 @@
         "categoria": "Xerox e Encadernação",
         "bloco": "A",
         "andar": "T",
-        "descricao": "Descricao copiadora",
+        "descricao": "Localizada em frente ao caracol, a copiadora universitária é utilizada por alunos e professores, em diversos assuntos, como o serviço de xerox e encadernação, venda de produtos como cadernos e materiais acadêmicos, camisetas personalizadas dos diferentes cursos da Unioeste, entre outros diversos produtos.",
         "icon" : "copiadora",
         "imagens": [
-            "copiadora/copiadora_1.jpg",
-            "copiadora/copiadora_2.jpg",
-            "copiadora/copiadora_3.jpg",
-            "copiadora/copiadora_4.jpg"
-        ] 
+            {"src": "copiadora/copiadora_1.jpg", "alt": "Imagem da frente da copiadora universitária contendo uma janela, uma porta, máquinas de venda na parede a esquerda da copiadora, e a direita a porta que dá acesso a frente do Ambulatório"},
+            {"src": "copiadora/copiadora_2.jpg", "alt": "Imagem com estante e prateleiras contendo livros e materiais universitários disponíveis para venda"},
+            {"src": "copiadora/copiadora_3.jpg", "alt": "Imagem com prateleiras contendo cadernos e livros, matérias universitarios, objetos e roupas personalizadas dos cursos"},
+            {"src": "copiadora/copiadora_4.jpg", "alt": "Imagem capturada em frente a copiadora da porta que dá acesso ao Ambulatório da Universidade e do corredor do térreo do bloco B, com cadeiras de espera ao lado da porta do ambulatório"}
+        ]
+ 
     },
     { 
         "coordinates": [-24.988400799448634, -53.44821247223312],
@@ -130,10 +138,11 @@
         "descricao": "Localizada no Bloco A, abaixo das salas e em frente ao Restaurante Universitário (RU), a Cantina serve como um espaço destinado à alimentação e ao convívio social da comunidade acadêmica, incluindo estudantes, professores e funcionários. ",
         "icon" : "alimentacao",
         "imagens": [
-            "cantina/cantina1.jpg",
-            "cantina/cantina2.jpg",
-            "cantina/cantina3.jpg"
-        ] 
+            {"src": "cantina/cantina1.jpg", "alt": "Imagem de uma das entradas, vinda do caracol para a cantina, podendo ser visto diversas cadeiras."},
+            {"src": "cantina/cantina2.jpg", "alt": "Imagem de diversas cadeiras da cantina e ao fundo portas de vidro podendo ser visto o lado externo do local."},
+            {"src": "cantina/cantina3.jpg", "alt": "Imagem em frente a cantina onde possui uma placa com seus lanches e seus preços. "}
+        ]
+
     },
     { 
         "coordinates": [-24.988419512566974, -53.449314515785424],
@@ -143,10 +152,11 @@
         "andar": "T",
         "descricao": "Localizado no bloco F, ao fim do corredor, o PETComp (Programa de Educação Tutorial - Ciência da Computação) é responsável por inserir estudantes de graduação em projetos de educação tutorial com o objetivo de aplicar seus conhecimentos e ampliar sua formação. O PETComp organiza eventos para compartilhar e adquirir conhecimento, como minicursos e palestras, que são abertos para os acadêmicos do curso de Ciência da Computação. Abre também oportunidades anualmente de fazer parte do grupo, podendo ser bolsista e voluntário.",
         "icon" : "grupo",
-        "imagens": [
-            "pet/pet_1.jpg",
-            "pet/pet_2.jpg"
-        ] 
+       "imagens": [
+            {"src": "pet/pet_1.jpg", "alt": "Imagem retirada em frente a sala do pet, com visão da porta da sala do Petcomp e do laboratório do grupo de pesquisa em computação aplicada"},
+            {"src": "pet/pet_2.jpg", "alt": "Imagem retirada na parte interna da sala do petcomp, com algumas mesas e cadeiras utilizadas para estudo e reuniões do grupo"}
+        ]
+
     },
     { 
         "coordinates": [-24.988223805965056, -53.44887262185449],
@@ -157,10 +167,25 @@
         "descricao": "Localizado no bloco F no corredor dos laboratórios, o Centro Acadêmico de Ciência da Computação (CACCo), é a entidade que representa dos alunos de Ciência da Computação perante a outros órgãos e entidades, como o  colegiado, o CCET, o DCE, entre outros.Também age para resolução de conflitos internos, organiza eventos como a SEMINC e promove a participação dos alunos em congressos como a Latinowere.",
         "icon" : "admin",
         "imagens": [
-            "ca/ca_4.jpg",
-            "ca/ca_2.jpg",
-            "ca/ca_3.jpg"
-        ] 
+            {"src": "ca/ca_4.jpg", "alt": "Imagem da porta do centro acadêmico, e ao lado a porta do BIT - Empresa Júnior"},
+            {"src": "ca/ca_2.jpg", "alt": "Imagem da parte interna do centro acadêmico, com algumas cadeiras e um quadro com ilustrações feitas a mão"},
+            {"src": "ca/ca_3.jpg", "alt": "Imagem da parte interna do centro acadêmico com visão do lado interno para o externo da sala"}
+        ]
+
+    },
+    { 
+        "coordinates": [-24.988666480277907, -53.44772113184547],
+        "local": "Sala das Atléticas",
+        "categoria": "Atléticas",
+        "bloco": "B",
+        "andar": "T",
+        "descricao": "Localizada no bloco B, próxima do ambulatório, a sala das atléticas é usada pela administração das atléticas, um grupo que serve para os alunos se socializarem e se divertirem, promovendo a interação entre os alunos por meio de esportes, eventos sociais e culturais, uma oportunidade incrível para desenvolver novas habilidades.",
+        "icon" : "sport",
+        "imagens": [
+            {"src": "atletica/atletica_1.jpg", "alt": "Imagem capturada em frente a sala das atléticas, com destaque ao corredor do térreo no bloco B"},
+            {"src": "atletica/atletica_2.jpg", "alt": "Imagem capturada da porta da sala das atléticas"}
+        ]
+
     },
     { 
         "coordinates": [-24.98827182096675, -53.44897856910849],
@@ -171,9 +196,10 @@
         "descricao": "Localizado no Bloco F no mesmo corredor do Centro Acadêmico e dos Laborátorio 1 e 2, o BIT é uma empresa que não está vinculada a fins lucrativos, oferece serviços de consultoria em TI, desenvolvimento de softwares, análise de sistemas e soluções tecnológicas para otimizar processos organizacionais, e promove a formação prática dos estudantes do curso, possibilitando a aplicação dos conhecimentos acadêmicos em projetos reais e contribuindo para o crescimento e aprimoramento das empresas atendidas",
         "icon" : "grupo",
         "imagens": [
-            "bit/bit_1.jpg",
-            "bit/bit_2.jpg"
-        ] 
+            {"src": "bit/bit_1.jpg", "alt": "Imagem capturada de lado com destaque a porta do bit e ao lado a porta do centro acadêmico, e ao fundo uma leve visão da porta do laboratório 1"},
+            {"src": "bit/bit_2.jpg", "alt": "Imagem capturada em frente a sala do BIT, e ao lado uma leve visão da sala do Centro Acadêmico de Ciência da Computação"}
+        ]
+
     },
     { 
         "coordinates": [-24.988722723135425, -53.44789600027454],
@@ -184,10 +210,11 @@
         "descricao": "Localizado ao lado da Copiadora Universitária no térreo, o Ambulatório é um ambiente similar a um pronto socorro mas sem a característica de urgência, tem como função oferecer atendimento médico especializado aos acadêmicos e a comunidade externa que necessitam de atendimentos.",
         "icon" : "saude",
         "imagens": [
-            "ambulatorio/ambulatorio_1.jpg",
-            "ambulatorio/ambulatorio_2.jpg",
-            "ambulatorio/ambulatorio_3.jpg"
-        ] 
+            {"src": "ambulatorio/ambulatorio_1.jpg", "alt": "Imagem da porta do Ambulatório com algumas cadeiras de espera ao lado"},
+            {"src": "ambulatorio/ambulatorio_2.jpg", "alt": "Imagem da porta do Ambulatório, capturada de lado com visão do corredor no térreo do Bloco B"},
+            {"src": "ambulatorio/ambulatorio_3.jpg", "alt": "Imagem da porta que liga o Ambulatório e a Copiadora, com visão ao fundo da Copiadora Universitária"}
+        ]
+
     },
     { 
         "coordinates": [-24.987298045223238, -53.44735764785217],
@@ -198,14 +225,15 @@
         "descricao": "Localizada ao lado do prédio de laboratórios (biologia, ciência, etc…), a Biblioteca da Unioeste está aberta de segunda a sexta das 7h45 as 21h30 ao acesso de todos os alunos, sendo um lugar extenso, com dois andares, possuindo várias mesas para quem busca conforto, estudar ou ler um dos vários livros disponíveis no local.",
         "icon" : "estudo",
         "imagens": [
-            "biblioteca/bib_0.1.jpg",
-            "biblioteca/bib_0.jpg",
-            "biblioteca/bib1.jpg",
-            "biblioteca/bib2.jpg",
-            "biblioteca/bib3.jpg",
-            "biblioteca/bib4.jpg",
-            "biblioteca/bib5.jpg"
-        ] 
+            {"src": "biblioteca/bib_0.1.jpg", "alt": "Imagem capturada no ângulo diagonal ds entrada da biblioteca universitária, portas e janelas de vidro"},
+            {"src": "biblioteca/bib_0.jpg", "alt": "Imagem capturada no ângulo diagonal mostrando a entrada da biblioteca universitária, ao lado da porta encontra-se lixeiras coloridas"},
+            {"src": "biblioteca/bib1.jpg", "alt": "Imagem capturada do segundo andar da biblioteca universitária mostrando o caracol que liga os andares e ao fundo da imagem, visão das prateleteiras com livro da biblioteca, no centro da imagem há um painel utilizado para expor eventos da biblioteca"},
+            {"src": "biblioteca/bib2.jpg", "alt": "Imagem capturada do caracol da biblioteca, mostrando prateleiras dos livros e o balcão de atendimento da biblioteca localizado na entrada"},
+            {"src": "biblioteca/bib3.jpg", "alt": "Imagem do museu universitário, localizado na biblioteca, contendo algumas exposições"},
+            {"src": "biblioteca/bib4.jpg", "alt": "Imagem capturada do segundo andar, com vista de cima para baixo, contendo uma mesa para estudos e algumas prateleiras com livros"},
+            {"src": "biblioteca/bib5.jpg", "alt": "Imagem com mesas de estudos e janela com vista para o lado externo da biblioteca"}
+        ]
+
     },
     { 
         "coordinates": [-24.987598469639693, -53.45075524180598],
@@ -216,10 +244,11 @@
         "descricao": "Localizada ao lado da entrada principal do redondo, e próximo aos auditórios, a Reitoria é o espaço físico onde estão localizados os principais gabinetes e departamentos administrativos da faculdade. Além de abrigar reuniões e eventos institucionais, a reitoria também funciona como um ponto de atendimento para assuntos acadêmicos e administrativos, servindo como referência para a comunidade acadêmica.",
         "icon" : "admin",
         "imagens": [
-            "reitoria/reitoria_1.jpg",
-            "reitoria/reitoria_2.jpg",
-            "reitoria/reitoria_3.jpg"
-        ] 
+            {"src": "reitoria/reitoria_1.jpg", "alt": "Imagem da frente da reitoria da Unioeste, com destaque ao letreiro com a logotipo da universidade"},
+            {"src": "reitoria/reitoria_2.jpg", "alt": "Imagem capturada da frente da reitoria, em um ângulo mais distantes e alguns carros no estacionamento em frente à reitoria"},
+            {"src": "reitoria/reitoria_3.jpg", "alt": "Imagem da porta da reitoria da Unioeste"}
+        ]
+
     },
     { 
         "coordinates": [-24.987891954928013, -53.449133466679],
@@ -230,9 +259,10 @@
         "descricao": "Este espaço é dedicado a pessoas com deficiência, oferecendo suporte especializado com professores preparados para auxiliar em diversas necessidades. É importante que você visite o local para conhecer seus direitos e aproveitar os recursos disponíveis, como uma sala exclusiva para estudos particulares.",
         "icon" : "grupo",
         "imagens": [
-            "pee/pee_2.jpg",
-            "pee/pee_1.jpg"
-        ] 
+            {"src": "pee/pee_1.jpg", "alt": "Imagem do lado interno do PEE com algumas cadeiras e minisalas de atendimento"},
+            {"src": "pee/pee_2.jpg", "alt": "Imagem da porta do PEE com algumas placas que indicam suporte educacional"}
+        ]
+
     },
     { 
         "coordinates": [-24.98815330388855, -53.448391209518014],
@@ -240,13 +270,14 @@
         "categoria": "Áreas Administrativas e Acadêmicas",
         "bloco": "A",
         "andar": "1",
-        "descricao": "descricao secretaria academica",
+        "descricao": "Localizada logo a frente da entrada do bloco A e acima do Restaurante universitário, a secretária acadêmica presta serviços administrativos aos acadêmicos, como informações de matrículas, disciplina, carteirinha digital entre outros assuntos",
         "icon" : "admin",
         "imagens": [
-            "sac/sac1.jpg",
-            "sac/sac2.jpg",
-            "sac/sac3.jpg"
+            {"src": "sac/sac1.jpg", "alt": "Imagem capturada de lado da porta da secretaria acadêmica, com uma leve visão do campo interno d secretaria"},
+            {"src": "sac/sac2.jpg", "alt": "Imagem capturada da porta da secretaria acadêmica, com leve visão do campo interno da sala"},
+            {"src": "sac/sac3.jpg", "alt": "Imagem capturada de lado da porta da secretaria acadêmica, com maior campo de visão do corredor"}
         ]
+
     },
     { 
         "coordinates": [-24.988595688467996, -53.4480575557847],
@@ -257,11 +288,12 @@
         "descricao": "O 'Caracol' está localizado entre os Blocos A e B, entre a cantina e a copiadora. Serve como um meio de se locomover entre os andares dos Blocos A e B. Nele também é possível encontrar o Jardim Sensorial, o qual serve como um espaço de descanso para a mente e corpo.",
         "icon" : "lazer",
         "imagens": [
-            "caracol/caracol1.jpg",
-            "caracol/caracol2.jpg",
-            "caracol/caracol3.jpg",
-            "caracol/caracol4.jpg"
-        ] 
+            {"src": "caracol/caracol1.jpg", "alt": "Imagem do corredor do primeiro andar que passa pelo caracol."},
+            {"src": "caracol/caracol2.jpg", "alt": "Imagem do ultimo andar do caracol, olhando para um banner."},
+            {"src": "caracol/caracol3.jpg", "alt": "Imagem do ultimo andar do caracol, olhando para o próprio caracol, contendo varias plantas em toda a sua extensão."},
+            {"src": "caracol/caracol4.jpg", "alt": "Imagem do térreo do caracol, olhando para a entrada do mesmo, com uma placa escrito 'Jardim Sensorial'."}
+        ]
+
     },
     {
         "coordinates": [-24.988361773075066, -53.44896515806814],
@@ -269,13 +301,14 @@
         "categoria": "Áreas Administrativas e Acadêmicas",
         "bloco": "F",
         "andar": "T",
-        "descricao": "descricao colegiado",
+        "descricao": "O colegiado envolve a parte mais administrativa e tecnica do curso, onde é feita a fiscalização, tomada de decisões, fixação de diretrizes, planejamento do ano letivo e outras funções de estruturação do curso.",
         "icon" : "admin",
         "imagens": [
-            "colegiado/colegiado_1.jpg",
-            "colegiado/colegiado_2.jpg",
-            "colegiado/colegiado_3.jpg"
-        ] 
+            {"src": "colegiado/colegiado_1.jpg", "alt": "Imagem capturada de frente da porta do colegiado, com algumas placas que indicam ser o colegiado de Ciência da Computação"},
+            {"src": "colegiado/colegiado_2.jpg", "alt": "Imagem capturada em frente a porta do colegiado, retirada de lado, com leve destaque ao corredor que liga os blocos e que dá acesso a saída do prédio dos blocos C ao H"},
+            {"src": "colegiado/colegiado_3.jpg", "alt": "Imagem capturada em frente a porta do colegiado, retirada de lado, com leve destaque ao corredor que liga os blocos"}
+        ]
+
     },
     {
         "coordinates" : [-24.988380006601755, -53.44919046362094],
@@ -286,9 +319,10 @@
         "descricao": "As salas dos profesores do Bloco F, são exclusivos para os docentes do curso da Computação, serve com um lugar de planejamento de aulas e atividades dos professores, e um possível lugar em que os alunos possam procurar os profesores fora do horário de aula.",
         "icon" : "salaprofs",
         "imagens": [
-            "salaprofessores/salaprof_1.jpg",
-            "salaprofessores/salaprof_2.jpg"
-        ] 
+            {"src": "salaprofessores/salaprof_1.jpg", "alt": "Imagem da porta da sala dos professores um, numerada sala treze."},
+            {"src": "salaprofessores/salaprof_2.jpg", "alt": "Imagem da porta da sala dos professores dois, numerada sala quatorze."}
+        ]
+
     },
     {
         "coordinates" : [-24.98709605914364, -53.44952394148997],
@@ -296,17 +330,18 @@
         "categoria":"Auditórios",
         "bloco" : "--",
         "andar" : "--",
-        "descricao": "Descrição Auditório",
+        "descricao": "O auditório principal, também conhecido como anfiteatro, é o espaço destinado a grandes eventos na instituição. Um exemplo notável é o projeto CineCECA, realizado todos os sábados, onde são exibidos filmes gratuitamente para o público. Além desse, o anfiteatro abriga diversos outros eventos importantes. Para se manter informado sobre a programação e novidades, é uma ótima ideia acompanhar as redes sociais da Unioeste.",
         "icon" : "auditorio",
         "imagens": [
-            "audprincipal/audprincipal1.jpeg",
-            "audprincipal/audprincipal2.jpeg",
-            "audprincipal/audprincipal3.jpeg",
-            "audprincipal/audprincipal4.jpeg",
-            "audprincipal/audprincipal5.jpeg",
-            "audprincipal/audprincipal6.jpeg",
-            "audprincipal/audprincipal7.jpeg"
-        ] 
+            {"src": "audprincipal/audprincipal1.jpeg", "alt": "Imagem da porta do auditório principal aberta, podendo ser visto um pouco do interior do próprio auditório, incluindo seu palco."},
+            {"src": "audprincipal/audprincipal2.jpeg", "alt": "Imagem de cima do palco do auditório principal, podendo observar a porta e todo o espaço amplo que ele tem."},
+            {"src": "audprincipal/audprincipal3.jpeg", "alt": "Imagem de todas as cadeiras do auditório principal, podendo observar a porta e todo o espaço amplo que ele tem."},
+            {"src": "audprincipal/audprincipal4.jpeg", "alt": "Imagem de cima do palco do auditório principal, olhando do lado esquerdo, podendo observar a porta e todo o espaço amplo que ele tem."},
+            {"src": "audprincipal/audprincipal5.jpeg", "alt": "Imagem de cima do palco do auditório principal, olhando do lado direito, podendo observar a porta e todo o espaço amplo que ele tem."},
+            {"src": "audprincipal/audprincipal6.jpeg", "alt": "Imagem do lado esquerdo do auditório, olhando para o palco, podendo observar todo o espaço amplo que ele tem."},
+            {"src": "audprincipal/audprincipal7.jpeg", "alt": "Imagem do lado direito do auditório, olhando para o palco, podendo observar todo o espaço amplo que ele tem. "}
+        ]
+ 
     },
     {
         "coordinates" : [-24.987428352497627, -53.44993096926705],
@@ -314,14 +349,15 @@
         "categoria":"Auditórios",
         "bloco" : "--",
         "andar" : "--",
-        "descricao": "Descrição mini auditorio1",
+        "descricao": "O miniauditorio 1 é usado  com frequencia para palestras. Ele está alinhado a outros miniauditórios com uma porta de vidro sendo capaz de ver a sua porta através da mesma, ele não é muito grande, e geralmente serve para eventos de menor porte. Participar de palestras é uma excelente oportunidade para adquirir conhecimento e pode, ainda, proporcionar horas extracurriculares, contribuindo para a formação acadêmica e profissional. Portanto, é uma boa ideia aproveitar essas oportunidades.",
         "icon" : "auditorio",
-        "imagens": [
-            "miniaud1/miniaud1_1.jpeg",
-            "miniaud1/miniaud1_2.jpeg",
-            "miniaud1/miniaud1_3.jpeg",
-            "miniaud1/miniaud1_4.jpeg"
-        ] 
+       "imagens": [
+            {"src": "miniaud1/miniaud1_1.jpeg", "alt": "Imagem da porta do mini auditório um aberta, podendo ser visto um pouco do seu interior."},
+            {"src": "miniaud1/miniaud1_2.jpeg", "alt": "Imagem de dentro do mini auditório um, visto do lado direito, podendo ser visto seus acentos e uma televisão."},
+            {"src": "miniaud1/miniaud1_3.jpeg", "alt": "Imagem de dentro do mini auditório um, visto do fundo do lado esquerdo, podendo ser visto seus acentos e onde o apresentador fica."},
+            {"src": "miniaud1/miniaud1_4.jpeg", "alt": "Imagem de dentro do mini auditório um, visto do meio da sala, podendo ser visto seus acentos."}
+        ]
+
     },
     {
         "coordinates" : [-24.98737884541502, -53.4498196693094],
@@ -329,14 +365,15 @@
         "categoria":"Auditórios",
         "bloco" : "--",
         "andar" : "--",
-        "descricao": "Descrição mini auditorio2",
+        "descricao": "O miniauditorio 2 é usado  com frequencia para palestras. Ele está alinhado a outros miniauditórios com uma porta de vidro sendo capaz de ver a sua porta através da mesma, ele não é muito grande, e geralmente serve para eventos de menor porte. Participar de palestras é uma excelente oportunidade para adquirir conhecimento e pode, ainda, proporcionar horas extracurriculares, contribuindo para a formação acadêmica e profissional. Portanto, é uma boa ideia aproveitar essas oportunidades.",
         "icon" : "auditorio",
         "imagens": [
-            "miniaud2/miniaud2_1.jpeg",
-            "miniaud2/miniaud2_2.jpeg",
-            "miniaud2/miniaud2_3.jpeg",
-            "miniaud2/miniaud2_4.jpeg"
-        ] 
+            {"src": "miniaud2/miniaud2_1.jpeg", "alt": "Imagem da porta do mini auditório dois aberta, podendo ser visto um pouco do seu interior."},
+            {"src": "miniaud2/miniaud2_2.jpeg", "alt": "Imagem de dentro do mini auditório dois, visto do lado esquerdo, podendo ser visto seus acentos e o projetor."},
+            {"src": "miniaud2/miniaud2_3.jpeg", "alt": "Imagem de dentro do mini auditório dois, visto do fundo do lado esquerdo, podendo ser visto seus acentos e o palco."},
+            {"src": "miniaud2/miniaud2_4.jpeg", "alt": "Imagem de dentro do mini auditório dois, visto do fundo do lado direito, podendo ser visto seus acentos e o palco."}
+        ]
+
     },
     {
         "coordinates" : [-24.98732279964218, -53.44971867490386],
@@ -344,14 +381,15 @@
         "categoria":"Auditórios",
         "bloco" : "--",
         "andar" : "--",
-        "descricao": "Descrição mini auditorio3",
+        "descricao": "O miniauditorio 3 é usado  com frequencia para palestras. Ele está alinhado a outros miniauditórios com uma porta de vidro sendo capaz de ver a sua porta através da mesma, ele não é muito grande, e geralmente serve para eventos de menor porte. Participar de palestras é uma excelente oportunidade para adquirir conhecimento e pode, ainda, proporcionar horas extracurriculares, contribuindo para a formação acadêmica e profissional. Portanto, é uma boa ideia aproveitar essas oportunidades.",
         "icon" : "auditorio",
-        "imagens": [
-            "miniaud3/miniaud3_1.jpeg",
-            "miniaud3/miniaud3_2.jpeg",
-            "miniaud3/miniaud3_3.jpeg",
-            "miniaud3/miniaud3_4.jpeg"
-        ] 
+       "imagens": [
+            {"src": "miniaud3/miniaud3_1.jpeg", "alt": "Imagem da porta do mini auditório três aberta, podendo ser visto um pouco do seu interior."},
+            {"src": "miniaud3/miniaud3_2.jpeg", "alt": "Imagem de dentro do mini auditório três, visto do lado direito, podendo ser visto seus acentos."},
+            {"src": "miniaud3/miniaud3_3.jpeg", "alt": "Imagem de dentro do mini auditório três, visto do lado esquerdo, podendo ser visto seus acentos e o projetor."},
+            {"src": "miniaud3/miniaud3_4.jpeg", "alt": "Imagem de dentro do mini auditório três, visto do fundo, podendo ser visto onde o apresentador fica."}
+        ]
+
     },
     {
         "coordinates": [-24.986852880703943, -53.448925140628496],
@@ -362,8 +400,12 @@
         "descricao": "A entrada lateral, fica localizada na Rua Universitária, ela dá acesso ao caminho para o bloco A e a Biblioteca Universitária. A entrada possui uma parada de ônibus logo em frente.",
         "icon" : "entrada",
         "imagens": [
-            "entradared/entradared_1.jpg"
+            {"src": "entradalat/entradalat_1.jpeg", "alt": "Imagem capturada de lado do portão da entrada lateral da universidade, com visão ao fundo do bloco A"},
+            {"src": "entradalat/entradalat_2.jpeg", "alt": "Imagem capturada de frente do portão, com visão do corredor principal que dá acesso ao bloco, e ao lado a capela universitária"},
+            {"src": "entradalat/entradalat_3.jpeg", "alt": "Imagem capturada de lado do portão, e ao lado esquerdo, o ponto de ônibus que fica em frente a Universidade"},
+            {"src": "entradalat/entradalat_4.jpeg", "alt": "Imagem capturada do outro lado da rua, com visão ampla da entrada lateral da Universidade"}
         ]
+
     },
     {
         "coordinates": [-24.987300585180837, -53.4502138365139],
@@ -374,7 +416,7 @@
         "descricao": "A entrada principal fica ao fim da Carlos Gomes e é utilizada para acesso ao estacionamento da Reitoria e do Campus, também servindo como entrada para os auditórios e ao prédio antigo da unioeste (blocos C, D, E e F).",
         "icon" : "entrada",
         "imagens": [
-            "entradared/entradared_1.jpg"
+            {"src": "entradared/entradared_1.jpg", "alt": "Imagem da entrada principal da universidade, com um portão que da acesso ao blocos C ao F, e vagas de estacionamento, ao lado do portão há uma calçada coberta que da acesso ao estacionamento da reitoria"}
         ]
     }
 ]

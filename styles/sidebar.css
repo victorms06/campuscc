@@ -26,7 +26,7 @@
   .imagem-logo {
     width: 400px;
     height: 200px;
-    background-image: url('./images/soltas/logo.png');
+    background-image: url('/images/soltas/logo.png');
     background-size: 200px 200px; /* Ajusta o tamanho da imagem */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat;

@@ -62,7 +62,7 @@
     margin-right: 5px;
     outline: #1b75bc;
   }
-
+  
   @media (max-width: 768px) { 
 
     .leaflet-popup-content-wrapper {

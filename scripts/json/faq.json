@@ -1,0 +1,54 @@
+[
+    {
+        "pergunta" : "Como funcionam os monitores das disciplinas?",
+        "resposta" : "Os monitores das disciplinas são estudantes veteranos que dominam o conteúdo e, após serem aprovados na matéria, decidem atuar como monitores para ajudar outros alunos. Eles estão disponíveis para fornecer apoio extra a qualquer estudante que precisar. Os monitores possuem horários específicos para esse auxílio, geralmente fora do período das aulas. Vale lembrar que nem todas as disciplinas possuem monitores, então aproveite ao máximo essa oportunidade caso sua disciplina tenha um."
+    },
+    {
+        "pergunta" : "Onde é feita a pré-matrícula ou matrícula?",
+        "resposta" : "A pré-matrícula, matrícula e rematrícula são realizadas na Secretaria Acadêmica. Lá, também são atendidas outras demandas relacionadas à vida acadêmica. É importante comparecer nos horários indicados para esses procedimentos. Caso não encontre a Secretaria, pergunte a qualquer funcionário ou aluno, ou consulte o mapa da universidade para localizá-la."
+    },
+    {
+        "pergunta" : "Como descubro qual é minha sala de aula?",
+        "resposta" : "Geralmente, os calouros são adicionados a um grupo de WhatsApp, onde são compartilhadas informações sobre as salas, cronogramas e lembretes. Caso não tenha sido adicionado, não hesite em pedir para entrar no grupo. Se ninguém souber informar a sala, procure a Secretaria Acadêmica, pois eles têm todas as informações necessárias."
+    },
+    {
+        "pergunta" : "Como posso falar com os professores fora do horário de aula?",
+        "resposta" : "Cada professor possui uma sala onde fica disponível em horários específicos. No primeiro dia de aula, o professor informará sua sala e os horários em que estará disponível para atendimento. Recomenda-se avisá-lo com antecedência para evitar desencontros. Além disso, é possível entrar em contato com os professores pelo Microsoft Teams."
+    },
+    {
+        "pergunta" : "O que é o TEAMS?",
+        "resposta" : "O Teams é uma plataforma da Microsoft utilizada pela UNIOESTE para disponibilizar materiais das aulas, como slides, livros de apoio, trabalhos e recados. Todos os estudantes recebem automaticamente uma conta ao ingressar na universidade. O uso da plataforma é intuitivo e essencial para acompanhar as atividades acadêmicas."
+    },
+    {
+        "pergunta" : "O que fazer se eu perder ou não souber minha conta ou senha dos sistemas da UNIOESTE?",
+        "resposta" : "Caso tenha problemas com sua conta ou senha, procure o setor de Informática, localizado no Bloco E, próximo aos laboratórios. Lá, você poderá obter ajuda para recuperar sua conta, alterar nome ou senha e solucionar outros problemas técnicos relacionados aos sistemas da UNIOESTE."
+    },
+    {
+        "pergunta" : "Quem tem Cadastro Único (CadÚnico) tem desconto no Restaurante Universitário (RU)?",
+        "resposta" : "Sim, acadêmicos que possuem CadÚnico têm direito a um desconto no RU, pagando R$ 2,50 por refeição, enquanto os demais universitários pagam R$ 4,00. Para ter acesso a esse direito, você deve ir ao site do CadÚnico, imprimir um comprovante que você faz parte do programa e levar na Secretaria Acadêmica e pedir o desconto para o Restaurante Universitário, o processo irá demorar de 1 a 2 dias e depois disso, quando você mostrar a carteirinha digital no momento de apresentação o sistema irá constatar que você deverá pagar o valor de R$2,50;."
+    },
+    {
+        "pergunta" : "Como posso acessar a rede wi-fi da Unioeste?",
+        "resposta" : "A forma de conexão com a internet na Universidade é um pouco diferente da forma tradicional, em vez de você apenas colocar uma senha, você deverá se conectar a internet através da sua identidade acadêmica (E-mail institucional e senha do Sistema Academus), você poderá encontrar mais informações no Manual do Calouro, que será enviado nos grupos do Whatsapp do curso, ou através do site oficial da Unioeste, que está no tópico de 'Links relevantes' deste site na opção 'Acesso à rede Wi-fi'."
+    },
+    {
+        "pergunta" : "Como protocolar assuntos universitários (Justificativa de Falta, 2° Chamada de provam 2° via da Carteira Digital)?",
+        "resposta" : "Para protocolar assuntos universitários, você tem 2 opções, ir presencialmente a secretaria de protocolos da Unioeste, que fica próxima a Secretaria Acadêmica, ou você pode fazer isso de forma online atráves de um formulário, que está disponpivel no link que está no tópico de 'Links Relevantes' deste site na opção 'Link para protocolos'. Vale lembrar que todos os anexos que forem enviados para o seu pedido, seja atestado ou declaração, precisam estar no formato PDF."
+    },
+    {
+        "pergunta" : "Como funciona o transporte público perto da Unioeste",
+        "resposta" : "A unioeste tem aos redores de sua localidade, pontos de transporte público, na Rua Universitária (rua das entradas laterais da Universidade), temos 2 pontos de ônibus, sendo eles pontos das linhas: Cascavel Velho/Sul, Leste-Sul via Rua Itália e Faculdade/Sul, e próximo a Universidade há o Terminal Urbano Sul, que possui diversas outras linhas de ônibus que rodam pela região sul da cidade e também ligam a outras regiões como a linha Sul/Estação Central (que liga a região sul ao centro da cidade via Avenida Carlos Gomes, e é utilizada por vários alunos que fazem a integração de outros bairros até a Unioeste)."
+    },
+    {
+        "pergunta": "Como funciona o empréstimo de livros da biblioteca?",
+        "resposta": "Para efetuar ou renovar o empréstimo de livros, é indispensável a apresentação da carteirinha. Para obtê-la, é necessário preencher a ficha de cadastro no balcão, apresentar uma foto 3×4 recente e uma foto digitalizada. A carteirinha é pessoal e intransferível, e em caso de extravio, deve-se comunicar e solicitar a segunda via. Usuários externos, sem vínculo com a universidade, devem apresentar um comprovante de residência e uma foto 3×4, tendo acesso apenas ao empréstimo de obras literárias, sem permissão para retirar outros livros do acervo. O prazo máximo de empréstimo para acadêmicos da graduação é de sete dias, e atrasos na devolução estão sujeitos a multa." 
+    },
+    {
+        "pergunta": "Como funciona o sistema Academus da Unioeste?",
+        "resposta": "O Academus é o sistema de gestão acadêmica da Unioeste, utilizado para gerenciar o ingresso e a desvinculação de estudantes, além de outras atividades. O módulo web acadêmico permite que os estudantes consultem suas notas, frequências, planos de ensino, conteúdos ministrados nas aulas, dados pessoais, ingresso no curso e atividades acadêmicas complementares, além de possibilitar a realização da rematrícula online pelo site da universidade." 
+    },
+    {
+        "pergunta": "Como participar dos grupos do curso, como o PetComp e o BIT - Empresa Júnior?",
+        "resposta": "Para participar da BIT, Empresa Júnior e do grupo PETcomp do curso Ciência da Computação da Unioeste, é necessario passar pelos processo seletivos que os membros de cada grupo organizam. Normalmente, no início do ano, cada um desses grupos se apresentam e apresentam os grupos e explicam como funciona o processo seletivo para o ingresso." 
+    }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - UNIOESTE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .faq-item {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .faq-question {
+            cursor: pointer;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+        .faq-answer {
+            display: none;
+            padding: 10px;
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq-container">
+        <h2>FAQ - UNIOESTE</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">Como funcionam os monitores das disciplinas?</div>
+            <div class="faq-answer">Os monitores são estudantes veteranos que auxiliam outros alunos em horários específicos.</div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Onde é feita a matrícula?</div>
+            <div class="faq-answer">A matrícula é realizada na Secretaria Acadêmica da universidade.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Quem tem Cadastro Único tem desconto no RU?</div>
+            <div class="faq-answer">Sim, acadêmicos com CadÚnico pagam R$ 2,50 por refeição.</div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                console.log(`Pergunta clicada: ${item.textContent.trim()}`);
+                const answer = item.nextElementSibling;
+                if (answer.style.display === 'block') {
+                    console.log('Ocultando resposta');
+                    answer.style.display = 'none';
+                } else {
+                    console.log('Exibindo resposta');
+                    answer.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

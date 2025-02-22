@@ -9,9 +9,9 @@
 
   <link rel="stylesheet" href="styles/geral.css">
   <link rel="stylesheet" href="styles/mapa.css">
-  <link rel="stylesheet" href="styles/modal_carrossel.css">
   <link rel="stylesheet" href="styles/sidebar.css">
   <link rel="stylesheet" href="styles/legenda.css">
+  <link rel="stylesheet" href="styles/modais.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
@@ -25,14 +25,14 @@
 <!-- Botão e Conteúdo -->
 <div id="main-content" class="p-3">
    <div id="map" style="position: relative; z-index: 100;">
-      <button id="toggleSidebar" class="btn mb-3" style="position: absolute; background-color: #1b75bc; color: #ffffff; margin-left: 10px;  margin-top: 15px; z-index: 999;">☰</button>
+      <button tabindex="1" aria-label="Abrir Menu Lateral" id="toggleSidebar" class="btn mb-3" style="position: absolute; background-color: #1b75bc; color: #ffffff; margin-left: 10px;  margin-top: 15px; z-index: 999;">☰</button>
    </div>
 </div>
 
 <!-- Sidebar -->
 <div id="sidebar">
     <div class="box">
-      <a  class="navbar-brand" href="#"><img style="width: 60px; height: 50px; margin-left: -10px; margin-top: -15px; margin-bottom: -15px;" src="./images/soltas/logo-site.png" alt="Logotipo principal do site CampusCC"><span style="width: 18px;">CampusCC</span></a>
+      <a  class="navbar-brand" href=""><img style="width: 60px; height: 50px; margin-left: -10px; margin-top: -15px; margin-bottom: -15px;" src="./images/soltas/logo-site.png" alt="Logotipo principal do site CampusCC"><span style="width: 18px;">CampusCC</span></a>
       <button id="closeSidebar" aria-label="Close Sidebar">&times;</button>
     </div>
 
@@ -41,7 +41,6 @@
       <form class="d-flex" role="search">
         <input id="search-input" class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search" autocomplete="off">
         <button id="search-button" class="btn btn-outline-primary" type="submit">Localizar</button>
-        <div id="suggestions" style="position: absolute; background: white; border: 1px solid #ccc; z-index: 1000; margin-top: 50px; padding: 10px; border-radius: 4px; display: none; cursor: pointer;"></div>
       </form>
     </ul>
 
@@ -58,13 +57,16 @@
             <li><a class="dropdown-item categorias" data-category="Áreas Administrativas e Acadêmicas" href="#">Áreas Administrativas e Acadêmicas</a></li>
             <li><hr class="dropdown-divider"></li>
 
-            <li><a class="dropdown-item categorias" data-category="Áreas de Alimentação e Serviços" href="#">Áreas de Alimentação e Serviços</a></li>
+            <li><a class="dropdown-item categorias" data-category="Áreas de Alimentação e Serviços" href="#">Áreas de Alimentação</a></li>
             <li><hr class="dropdown-divider"></li>
 
             <li><a class="dropdown-item categorias" data-category="Entradas" href="#">Entradas</a></li>
             <li><hr class="dropdown-divider"></li>
 
             <li><a class="dropdown-item categorias" data-category="Grupos e Projetos" href="#">Grupos e Projetos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+            <li><a class="dropdown-item categorias" data-category="Atléticas" href="#">Atléticas</a></li>
             <li><hr class="dropdown-divider"></li>
 
             <li><a class="dropdown-item categorias" data-category="Laboratórios" href="#">Laboratórios</a></li>
@@ -123,67 +125,223 @@
         </ul>        
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Disciplinas</a>
+        <button id="btn-disciplina" class="nav-link" href="#">Disciplinas</button>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#">Dúvidas Frequentes</a>
+        <button id="btn-faq" class="nav-link" href="#">Dúvidas Frequentes</button>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Links Relevantes
+        </a>
+        <ul class="dropdown-menu" style="overflow: auto; height: 300px; overflow-x: hidden;">
+          <li><a class="dropdown-item" href="https://unioeste.br/portal/" target="_blank">Site oficial da Unioeste</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.inf.unioeste.br/sitecomp/?page_id=240" target="_blank">Site oficial do Curso</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://petsite-bd39a.web.app/" target="_blank">Site do PetComp</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://server2.midas.unioeste.br/login/#/" target="_blank">Sistema Academus</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://unioeste.br/portal/nti/normas-e-tutoriais/acesso-a-rede-sem-fio" target="_blank">Acesso à rede Wi-fi</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://unioeste.br/portal/nti/normas-e-tutoriais/office-365" target="_blank">Pacote Office 365</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/petcomp_unioeste/" target="_blank">Instagram PetComp</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/unioestepr/" target="_blank">Instagram Unioeste</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/cacco.unioeste/" target="_blank">Instagram Centro Acadêmico</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/ccetunioestecvel/" target="_blank">Instagram CCET</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/amiservicosru/" target="_blank">Instagram Restaurante Universitário</a></li>
+          <li><hr class="dropdown-divider"></li>
+
+          <li><a class="dropdown-item" href="https://www.instagram.com/dceunioestecvel/" target="_blank">Instagram DCE</a></li>
+          <li><hr class="dropdown-divider"></li>
+        </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Links Relevantes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ajuda</a>
+        <button id="btn-atalhos" class="nav-link" href="#">Atalhos</button>
       </li>
     </ul>
   <div class="imagem-logo"></div>
 </div>
-  <div id="overlay" class="overlay" onclick="fechar(event)">
+  <div id="overlay" class="overlay">
     <div class="modal-content">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner"></div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="modal-carrossel-header header-modal">
+        <h6 id="modal-carrossel-titulo"></h6>
+        <button id="btn-fechar-modal-carrossel" class="fecharModal ">&times;</button>
+      </div>
+      <hr>
+      <div id="carrossel" class="carrossel">
+        <div id="carouselExample" class="carousel slide" tabindex="0">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <div class="carousel-inner"></div>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+       </div>
+       <div class="carrossel-rodape">
+        <div class="content-rodape">Imagem <span id="atual"></span> de <span id="total"></span></div>
+       </div>
+      </div>
+      <div class="modal-rodape"></div>
+    </div>
+  </div>
+  <div id="second-overlay" class="second-overlay">
+    <div class="box-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+      
+        </div>
+        <hr>
+        <div class="modal-body"></div>
+
+        <div class="modal-footer">
+          <button id="btnClosemodalDescricao" type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="fechar(event)">Fechar</button>
+        </div>
+    </div> 
+  </div>
+  <div id="overlay-disciplina" class="overlay-disciplina" tabindex="0" >
+   
+    <div class="modal-sidebar-disciplinas" id="modal-disciplinas">
+     
+      <div class="header-modal header-modal-disciplinas">
+        <h6>Disciplinas 1° ano - Ciência da Computação</h6>
+        <button id="btn-fechar-modal-disciplina" class="fecharModal">&times;</button>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Algoritmos</p>
+        <p><span>Descrição:</span> Estudo das formas de representação do pensamento lógico através de técnicas de desenvolvimento de algoritmos e da
+          representação e manipulação de dados na memória principal e secundária de um computador.
+        </p>
+        <p><span>Docente(s):</span> Alexandre Augusto Piton Nassar, Josué Pereira de Castro</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Cálculo Diferencial e Integral</p>
+        <p><span>Descrição:</span> Fundamentos Matemáticos (Frações Algébricas. Produtos Notáveis. Potenciação, Radiciação e Logaritmos. Trigonometria).
+          Números Reais, funções reais de uma variável real, limites, continuidade, derivadas e integrais.</p>
+        <p><span>Docente(s):</span> Simone Aparecida Milloca, Jesus Marcos Camargo</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Estatística Básica</p>
+        <p><span>Descrição:</span> Estatística descritiva, resumo de dados, medidas de posição e de escala. Probabilidades: Análise Combinatória,
+          probabilidades, variável aleatória, distribuições discretas e contínuas, estimações paramétricas (pontual e intervalar),
+          estimação para a média e para a variância, testes de hipóteses. Técnicas de amostragem; Análise de Regressão; Análise
+          de Variância; Estatística Experimental. Exemplos cotidianos de uso da estatística.</p>
+        <p><span>Docente(s):</span> Wilson Alves de Oliveira</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Extensão 1</p>
+        <p><span>Descrição:</span> Aspectos teóricos das atividades de extensão. Realização de atividades em projetos extensionistas e em prol à comunidade</p>
+        <p><span>Docente(s):</span> Gabriela Stein</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Geometria Analítica e Álgebra Linear</p>
+        <p><span>Descrição:</span> Estudo de matrizes, sistemas de equações lineares, determinante e matriz inversa, vetores, retas e planos, distâncias,
+          espaços vetoriais, mudança de base, transformações lineares, autovalores e autovetores.</p>
+        <p><span>Docente(s):</span> Rosângela Villwock</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Introdução à Ciência da Computação</p>
+        <p><span>Descrição:</span> Histórico da Computação. Sistemas de Numeração. Representação de Dados no Computador. Noções de Hardware e
+          Software. Caracterização do Perfil Profissional do Egresso, áreas de atuação e Mercado de Trabalho. Áreas do Curso de
+          Ciência da Computação. Meio Ambiente e Responsabilidade Socioambiental.</p>
+        <p><span>Docente(s):</span> Matheus Raffael Simon</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Lógica e Matemática Discreta</p>
+        <p><span>Descrição:</span> Estudo de lógica matemática. Álgebra de Boole. Teoria dos conjuntos, relações, funções e operações. Indução matemática
+          e relações de recorrência. Noções básicas de contagem, divisibilidade e congruência.</p>
+        <p><span>Docente(s):</span> Jesus Marcos Camargo, Flavio Roberto Dias Silva, Clézio Aparecido Braga</p>
+      </div>
+      <div class="disciplinas-info">
+        <p><span>Disciplina:</span> Sistemas Digitais</p>
+        <p><span>Descrição:</span> Fundamentos básicos de semicondutores. Portas lógicas, características básicas dos Circuitos Integrados digitais, sinais de
+          clock. Álgebra booleana. Circuitos lógicos combinacionais. Circuitos lógicos sequenciais. Dispositivos de armazenamento
+          (memórias), máquinas de estados.
+          </p>
+        <p><span>Docente(s):</span> Gabriela Stein</p>
+      </div>
+    </div> 
+  </div>
+  <div id="overlay-faq">
+    <div class="modal-sidebar-faq" id="modal-faq">
+      <div class="header-modal">
+        <h6 style="margin-top: 5px; margin-left: 5px; margin-bottom: -10px;">FAQ - Dúvidas Frequentes</h6>
+        <button id="btn-fechar-modal-faq" class="fecharModal" style="margin-top: 10px;">&times;</button>
+      </div>
+      <hr>
+      <div id="faq-items" class="faq-items"></div>
+    </div>
+  </div>
+  <div class="overlay-inicio-site" id="overlay-inicio">
+    <div id="modal-apresentacao" class="modal-carregamento-site">
+      <h5 style="margin: 10px 0px -10px 0px;">Bem-vindo ao CampusCC Unioeste!</h5>
+      <hr>
+        <p>Este site foi desenvolvido especialmente para ajudar você a se orientar na Unioeste. Se esta é sua primeira vez aqui, fique tranquilo! Aqui você encontrará diversas ferramentas úteis para facilitar sua experiência universitária.</p>
+
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li><strong>🔹 Mapa Interativo da Universidade:</strong> Navegue facilmente pelos diversos locais do campus, encontre salas de aula, blocos e outros pontos importantes da universidade.</li>
+            <li><strong>🔹 Horários das Aulas:</strong> Confira os horários das suas aulas e planeje seu dia de forma prática.</li>
+            <li><strong>🔹 Informações sobre as Disciplinas:</strong> Acesse detalhes sobre as disciplinas que você está cursando ou pretende cursar, como ementas, professores e horários.</li>
+        </ul>
+
+        <button id="btn-inicio" class="btn btn-primary">Navegar pelo site</button>
+    </div>
+  </div>
+  <div id="overlay-atalhos">
+    <div id="modal-atalhos" class="modal-atalhos">
+      <div class="header-modal modal-atalho-header">
+        <h6>Atalhos do site para computadores</h6>
+        <button id="btn-fechar-modal-atalhos" class="fecharModal" style="margin-top: 5px;">&times;</button>
+      </div>
+      <hr>
+      <div class="itens-atalho">
+        <p><span class="atalho">Esc</span>: Fechar abas abertas (pop-ups, descrição, carrossel de imagens, modais)</p>
+        <p><span class="atalho">CTRL + F</span>: Pesquisar locais no mapa</p>
+        <p><span class="atalho">CTRL + L</span>: Abrir legenda do mapa</p>
+        <p><span class="atalho">CTRL + C</span>: Abrir carrossel de imagens do local</p>
+        <p><span class="atalho">CTRL + I</span>: Abrir modal de descrição do local</p>
+        <p><span class="atalho">Tecla ↑</span>: Mover o mapa para cima</p>
+        <p><span class="atalho">Tecla ↓</span>: Mover o mapa para baixo</p>
+        <p><span class="atalho">Tecla ←</span>: Mover o mapa para a direita (mapa), Voltar para a imagem anterior (carrossel de imagens)</p>
+        <p><span class="atalho">Tecla →</span>: Mover o mapa para a esquerda (mapa), Ir para a próxima imagem (carrossel de imagens)</p>
       </div>
     </div>
   </div>
-  <div id="second-overlay" class="second-overlay" onclick="fechar(event)">
-    <div class="box-content">
-      
-          
-            <div class="modal-header">
-              <h5 class="modal-title"></h5>
-              <button  id="closeModalInfo" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="fechar(event)"></button>
-            </div>
-            <hr>
-
-            <div class="modal-body"></div>
-
-            <div class="modal-footer">
-              <button id="btnCloseModalInfo" type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="fechar(event)">Fechar</button>
-            </div>
-    </div>  
-  </div>
   <button id="legendaBtn">Mostrar legenda</button>
   <div id="legend" class="hidden">
-    <img class="icon-legend" src="./images/icons/entrada.png" alt="">Entrada<br>
-    <img class="icon-legend" src="./images/icons/aula.png" alt="">Salas de Aula<br>
-    <img class="icon-legend" src="./images/icons/lab.png" alt="">Laboratórios<br>
-    <img class="icon-legend" src="./images/icons/estudo.png" alt="">Biblioteca<br>
-    <img class="icon-legend" src="./images/icons/grupo.png" alt="">Grupos e Projetos<br>
-    <img class="icon-legend" src="./images/icons/alimentacao.png" alt="">Alimentação<br>
-    <img class="icon-legend" src="./images/icons/lazer.png" alt="">Caracol - Jardim Sensorial<br>
-    <img class="icon-legend" src="./images/icons/admin.png" alt="">Campos Administrativos<br>
-    <img class="icon-legend" src="./images/icons/salaprofs.png" alt="">Sala dos Professores<br>
-    <img class="icon-legend" src="./images/icons/auditorio.png" alt="">Auditórios<br>
-    <img class="icon-legend" src="./images/icons/copiadora.png" alt="">Copiadora<br>
-    <img class="icon-legend" src="./images/icons/saude.png" alt="">Ambulatório<br>
+    <img class="icon-legend" src="./images/icons/entrada.png" alt="Ícone que representa as entradas">Entrada<br>
+    <img class="icon-legend" src="./images/icons/aula.png" alt="Ícone que representa as salas de aula">Salas de Aula<br>
+    <img class="icon-legend" src="./images/icons/lab.png" alt="Ícone que representa os laboratórios">Laboratórios<br>
+    <img class="icon-legend" src="./images/icons/estudo.png" alt="Ícone que representa a biblioteca">Biblioteca<br>
+    <img class="icon-legend" src="./images/icons/grupo.png" alt="Ícone que representa os grupos e projetos do carousel-control-next-icon">Grupos e Projetos<br>
+    <img class="icon-legend" src="./images/icons/sport.png" alt="Ícone que representa as atléticas">Atléticas<br>
+    <img class="icon-legend" src="./images/icons/alimentacao.png" alt="Ícone que representa as áreas de alimentação">Alimentação<br>
+    <img class="icon-legend" src="./images/icons/lazer.png" alt="Ícone que representa o jardim sensorial">Caracol - Jardim Sensorial<br>
+    <img class="icon-legend" src="./images/icons/admin.png" alt="Ícone que representa os campos administrativos do curso e da universidade">Campos Administrativos<br>
+    <img class="icon-legend" src="./images/icons/salaprofs.png" alt="Ícone que representa a sala dos professores">Sala dos Professores<br>
+    <img class="icon-legend" src="./images/icons/auditorio.png" alt="Ícone que representa os auditórios">Auditórios<br>
+    <img class="icon-legend" src="./images/icons/copiadora.png" alt="Ícone que representa a copiadora universitária">Copiadora<br>
+    <img class="icon-legend" src="./images/icons/saude.png" alt="Ícone que representa o ambulatório">Ambulatório<br>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -192,8 +350,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="scripts/js/mapa.js"></script>
-  <script src="scripts/js/sidebar.js"></script>
-  <script src="scripts/js/legenda.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="scripts/js/carrossel.js" type="module"></script>
+  <script src="scripts/js/main.js" type="module" defer></script>
+  <script type="module" src="scripts/js/filter.js"></script>
+  <script type="module" src="scripts/js/faq.js"></script>
+  <script type="module" src="scripts/js/sidebar.js"></script>
+  <script type="module" src="scripts/js/legenda.js"></script>
+
 </body>
 </html>
