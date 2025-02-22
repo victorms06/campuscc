@@ -85,6 +85,7 @@ document.addEventListener('keydown', (evento) => {
   } else if(evento.key === 'Escape') {
     fecharModalDisciplina();
     fecharModalFaq();
+    fecharModalAtalhos();
   } 
 })
 
